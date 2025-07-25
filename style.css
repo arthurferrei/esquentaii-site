@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FAF3E0;
+  color: #4B2E2E;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #4B2E2E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #FFF4E5;
+}
+
+.cardapio {
+  padding: 2rem;
+  background-color: #FFF;
+}
+
+.marmitas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.item {
+  background: #FFF8F1;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item button {
+  background: #D25E28;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.como-funciona, .sobre {
+  padding: 2rem;
+  text-align: center;
+  background-color: #FFF4E5;
+}
+
+.passos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.passos div {
+  max-width: 120px;
+}
+
+footer {
+  padding: 1.5rem;
+  background: #4B2E2E;
+  color: #fff;
+  text-align: center;
+}
+
+.whatsapp {
+  display: inline-block;
+  background: #25D366;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
